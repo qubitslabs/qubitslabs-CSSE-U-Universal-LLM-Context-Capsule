@@ -38,7 +38,7 @@ const command = process.argv[2];
 
 if (command === "init") {
     fs.writeFileSync("csse-context.txt", template);
-    console.log("✅ CSSE template created: csse-context.txt");
+    console.log("CSSE template created: csse-context.txt");
 } else {
     console.log("Usage: csse init");
 }
