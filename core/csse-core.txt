@@ -2,3 +2,23 @@
 
 id:universal_context_capsule
 pr:semantic_compression|max_density|low_tokens|cross_chat_reuse
+
+schema:{
+ id:identifier
+ ob:objective
+ ctx:context
+ ag:agents
+ cn:constraints
+ st:state
+ nx:next_actions
+}
+
+rules:{
+ r1:keys_fixed_order
+ r2:no_fluff
+ r3:semantic_clarity>abbreviation
+ r4:assume_missing=unknown_not_false
+ r5:expand_on_request
+}
+
+mode:reconstruct_full_context+continue_reasoning
