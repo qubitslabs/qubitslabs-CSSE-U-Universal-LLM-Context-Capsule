@@ -1,0 +1,31 @@
+id:csse_universal_system
+
+ob:design_reusable_llm_memory_capsule
+
+ctx:{
+ dom:llm_system_design
+ scp:cross_chat_context_transfer
+ bg:need_high_density_low_token_reusable_format
+}
+
+ag:{
+ a1:{ro:system_designer,ts:architecture,sk:compression,modularity}
+ a2:{ro:llm_optimizer,ts:token_efficiency,sk:prompt_engineering}
+}
+
+cn:{
+ tkn:minimal
+ acc:high
+ lim:no_binary_decoding
+}
+
+st:{
+ cur:designing_core_format
+ prg:core_defined
+ blk:none
+}
+
+nx:{
+ n1:build_github_version
+ n2:create_examples
+}

@@ -1,0 +1,32 @@
+id:startup_strategy
+
+ob:build_scalable_product
+
+ctx:{
+ dom:startup
+ scp:mvp_to_scale
+ bg:limited_funding_high_growth_goal
+}
+
+ag:{
+ a1:{ro:ceo,ts:strategy,sk:decision_making}
+ a2:{ro:cto,ts:architecture,sk:scalability}
+ a3:{ro:marketing,ts:growth,sk:user_acquisition}
+}
+
+cn:{
+ tkn:medium
+ acc:high
+ lim:budget_constraints
+}
+
+st:{
+ cur:mvp_ready
+ prg:beta_users_onboarded
+ blk:low_conversion_rate
+}
+
+nx:{
+ n1:optimize_onboarding
+ n2:improve_retention
+}

@@ -1,0 +1,30 @@
+id:study_plan
+
+ob:prepare_for_exam
+
+ctx:{
+ dom:education
+ scp:physics_exam
+ bg:limited_time_high_priority_topics
+}
+
+ag:{
+ a1:{ro:planner,ts:schedule,sk:time_management}
+}
+
+cn:{
+ tkn:low
+ acc:medium
+ lim:time_constraint
+}
+
+st:{
+ cur:not_started
+ prg:0%
+ blk:unclear_topics
+}
+
+nx:{
+ n1:list_topics
+ n2:create_schedule
+}

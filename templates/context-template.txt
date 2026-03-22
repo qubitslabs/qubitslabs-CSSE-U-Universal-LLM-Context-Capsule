@@ -1,0 +1,31 @@
+id:<project_or_case>
+
+ob:<primary_goal>
+
+ctx:{
+ dom:<domain>
+ scp:<scope>
+ bg:<critical_background>
+}
+
+ag:{
+ a1:{ro:,ts:,sk:}
+ a2:{ro:,ts:,sk:}
+}
+
+cn:{
+ tkn:<token_limits>
+ acc:<accuracy_level>
+ lim:<known_limits>
+}
+
+st:{
+ cur:<current_state>
+ prg:<progress>
+ blk:<blockers>
+}
+
+nx:{
+ n1:<next_step>
+ n2:<next_step>
+}
